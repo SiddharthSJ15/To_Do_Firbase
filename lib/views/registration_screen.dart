@@ -29,7 +29,6 @@ class _RegistrationScreenState extends State<RegistrationScreen> with TickerProv
   bool _obscurePassword = true;
   bool _obscureConfirmPassword = true;
   bool _acceptTerms = false;
-  int _currentStep = 0;
   
   late AnimationController _animationController;
   late Animation<double> _fadeAnimation;
